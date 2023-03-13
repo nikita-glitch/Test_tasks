@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    background-image: url("/static/c.jpg");
+
+}
+
+.button_Key{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#clear{
+    grid-area: clear;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #b4adad;
+}
+
+#sum{
+    grid-area: sum;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: orange;
+}
+
+#multiply{
+    grid-area: multiply;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: orange;
+}
+
+#comma{
+    grid-area: comma;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#difference{
+    grid-area: difference;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: orange;
+}
+
+#division{
+    grid-area: division;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: orange;
+}
+
+#equals{
+    grid-area: equals;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: orange;
+}
+
+#num0{
+    grid-area: num0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num1{
+    grid-area: num1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num2{
+    grid-area: num2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num3{
+    grid-area: num3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num4{
+    grid-area: num4;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num5{
+    grid-area: num5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num6{
+    grid-area: num6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num7{
+    grid-area: num7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num8{
+    grid-area: num8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+#num9{
+    grid-area: num9;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #575757;
+}
+
+.calc{
+
+    display: inline-block;
+    background-color: #1f1f1f;
+
+    margin-left: 40%;
+
+}
+
+.output{
+    width: 430px;
+    margin-left: 40%;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: xx-large;
+}
+
+.out_mem{
+    width: 430px;
+    margin-top: 12%;
+    margin-left: 40%;
+    background-color: #1f1f1f;
+    color: #8c8b8b;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+
+.buttons{
+
+    width: 430px;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "clear clear clear division"
+                         "num7 num8 num9 multiply"
+                         "num4 num5 num6 difference"
+                         "num1 num2 num3 sum"
+                         "num0 num0 comma equals";
+    gap: 10px;
+    grid-template-columns: repeat(4, 100px);
+
+}
+
